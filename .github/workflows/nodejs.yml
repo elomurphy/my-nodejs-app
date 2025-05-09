@@ -1,10 +1,10 @@
 name: Node.js CI
 # This tells GitHub when to run this workflow
 on: 
-push:        # On every push
-    branches: [main]
-  pull_request: # On every PR
-    branches: [main]
+    push:        # On every push
+        branches: [main]
+    pull_request: # On every PR
+        branches: [main]
 
 jobs:
   build:
