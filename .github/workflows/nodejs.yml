@@ -2,8 +2,7 @@ name: Node.js CI
 # This tells GitHub when to run this workflow
 on: 
 push:        # On every push
-    branches: 
-    - master
+    branches: master
   pull_request: # On every PR
     branches: [main]
 
